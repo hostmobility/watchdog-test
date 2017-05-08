@@ -1,6 +1,5 @@
 EXEC_NAME = watchdog-test
 SRCS = watchdog_test.c
-CC = $(CROSS_COMPILE)gcc
 CFLAGS = -O2 -Wall
 OBJS = $(SRCS:.c=.o)
 
